@@ -1,0 +1,29 @@
+.checkbox__container{
+    padding: 0px 20px;
+    
+}
+.checkbox__checked{
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border: 1px solid #afafaf;
+    border-radius: 2px;
+   
+}
+.checkbox__checked--form{
+    top: 0;
+    left: 0;
+}
+.checkbox__checked--table{
+    top: -9px;
+    left: 1px;
+}
+.container .checkbox__checked:after{
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat;
+    background-position: -1224px -360px; 
+  }

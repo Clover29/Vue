@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    padding: 12px 24px 12px 10px;
+    justify-content: space-between;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    box-sizing: border-box;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+}

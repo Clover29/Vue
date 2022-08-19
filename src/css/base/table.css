@@ -1,0 +1,137 @@
+.table-container{
+    position: relative;
+    display: block;
+    background-color: #fff;
+}
+.table{
+    display: table;
+    width: 100%;
+   table-layout: fixed;
+   background-color: #fff;
+}
+.table-row{
+    display: table-row;
+    cursor: pointer;
+}
+.table-cell{
+    display: table-cell;
+    width: 130px;
+    height: 22px;
+    border-bottom: 1px solid #babec5;
+    border-right: 1px solid #babec5;
+    text-align: left;
+    padding: 0px 10px;
+    vertical-align: middle;
+}
+.col-14-cell{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color:  #0075c0;
+    font-weight: 600;
+}
+.cell-change{
+    padding: 6px 1px 6px 16px;
+}
+.table__paging{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 12px 12px 12px 0px;
+}
+.table_paging--right{
+    display: flex;
+    align-items: center;
+}
+.page{
+    display: flex;
+    margin-left: 16px;
+}
+.page__before{
+    margin-right: 13px;
+    color: #9e9e9e;
+    cursor: pointer;
+}
+.page-index{
+    display: flex;
+    align-items: center;
+}
+.page-index-1{
+    padding: 0px 6.5px;
+    cursor: pointer;
+}
+.page__after{
+    margin-left: 13px;
+    cursor: pointer;
+}
+.page__selected{
+    border: 1px solid #e0e0e0;
+    font-weight: 700;
+}
+.table-col-1{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 20px;
+   text-align: center;
+   padding: 10px;
+   margin: 0;
+   background-color: #fff;
+}
+.table-col-2{
+   width: 143px;
+}
+.table-col-3{
+    width: 202px;
+}
+.table-col-4{
+    width: 99px;
+}
+.table-col-5{
+    width: 129px;
+    text-align: center;
+}
+.table-col-6{
+    width: 179px;
+}
+.table-col-7{
+    width: 112px;
+}
+.table-col-8{
+    width: 155px;
+}
+.table-col-9{
+    width: 133px;
+}
+.table-col-10{
+    width: 133px;
+}
+.table-col-11{
+    width: 202px;
+}
+.table-col-12{
+    position: sticky;
+    top: 0;
+    right: -1px;
+    width: 105px;
+    text-align: center;
+    background-color: #fff;
+    border-left: 1px solid #babec5;
+}
+.table-head{
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #e5e8ec;
+}
+.table__sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.table-row:hover .table-cell:not(.table-head){
+    background-color: #f2f9ff;
+}
+.row__selected{
+    color: #35bf22 !important;
+    background-color: #ebedf0 !important;
+}

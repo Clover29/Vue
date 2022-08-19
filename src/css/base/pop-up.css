@@ -1,0 +1,38 @@
+.pop-up__container {
+  padding: 32px;
+  width: 50%;
+}
+
+.pop-up__content {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #babec5;
+  width: 100%;
+}
+
+.pop-up__message {
+  overflow: auto;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.pop-up__text {
+  padding-left: 16px;
+  padding-top: 12px;
+}
+
+.pop-up__footer {
+  display: flex;
+  margin-top: 20px;
+}
+.center{
+  justify-content: center;
+}
+.right{
+  justify-content: right;
+}
+.space_between{
+  justify-content: space-between;
+}

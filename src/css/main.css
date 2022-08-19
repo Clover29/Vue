@@ -1,0 +1,153 @@
+@import url(./base/icon.css);
+@import url(./base/scroller.css);
+@import url(./base/button.css);
+@import url(./base/tittle.css);
+@import url(./base/input.css);
+@import url(./base/checkbox.css);
+@import url(./base/dialog.css);
+@import url(./base/combobox.css);
+@import url(./base/radio-button.css);
+@import url(./base/table.css);
+@import url(./base/pop-up.css);
+
+
+@font-face {
+    font-family: MISA Fonts;
+    src: url(../assets/fonts/notosans-regular.2cb88a13.woff2);
+}
+
+@font-face {
+    font-family: MISA Fonts Bold;
+    src: url(../assets/fonts/notosans-bold.3ede5aff.woff2);
+}
+
+@font-face {
+    font-family: MISA Fonts Italic;
+    src: url(../assets/fonts/notosans-italic.1c1aaac9.woff2);
+}
+
+@font-face {
+    font-family: MISA Fonts semiBold;
+    src: url(../assets/fonts/notosans-semibold.df3e6dc4.woff2);
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: MISA Fonts;
+    font-size: 13px;
+}
+
+body {
+    overflow: hidden;
+    background: #f4f5f8;
+    overflow-x: unset;
+    max-width: 100%;
+    color: #111;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: 178px calc(100% - 178px);
+    grid-template-rows: 48px calc(100vh - 48px);
+}
+
+.row {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+.col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 6px;
+}
+
+.col-w-40 {
+    width: 40%;
+}
+
+.col-w-60 {
+    width: 60%;
+}
+
+.col-w-25 {
+    width: 25%;
+}
+
+.col-gender {
+    padding-left: 10px;
+}
+
+.border-red {
+    border-color: #f00;
+}
+
+.tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltip__text {
+    position: absolute;
+    visibility: hidden;
+    width: auto;
+    top: 26px;
+    right: -23px;
+    background-color: #4e4e4e;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    z-index: 2;
+    min-width: 100px;
+}
+.tooltip__text--error{
+    top: 38px;
+    right: 60px;
+    background-color: #f87e7e
+}
+.tooltip:hover .tooltip__text {
+    visibility: visible;
+}
+/* .loading{
+    display: none;
+} */
+.loading__container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

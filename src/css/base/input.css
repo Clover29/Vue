@@ -1,0 +1,44 @@
+.input{
+    height: 32px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid #babec5;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 12px;
+    min-width: 100px;
+}
+.content__input{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 240px;
+    padding-right: 10px;
+    border: 1px solid #babec5;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+.input:not(.input__search):focus, .content__input:focus-within{
+    border: 1px solid #2ca01c;
+}
+.input__search, .combo-input{
+    border: none;
+    width: 100%;
+}
+.combo-input{
+    padding-left: 10px;
+    outline: none;
+}
+.input::placeholder{
+    font-family: MISA Fonts Italic;
+    color: #acab9e;
+}
+
+.input--required {
+    color: red;
+}
+
+.input__error--required {
+    border: 1px solid red;
+}

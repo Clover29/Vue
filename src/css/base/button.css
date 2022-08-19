@@ -1,0 +1,55 @@
+.btn{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #2ca01c;
+    color: #fff;
+    font-weight: 600;
+    height: 34px;
+    padding: 6px 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.btn:not(.button-secondary):hover{
+    background-color:#35bf22 ;
+}
+.btn:focus{
+  outline: 3px solid #dcdcdc;
+}
+.button-secondary{
+    background-color: #fff;
+    border: 1px solid #8d9096;
+    color: #111;
+}
+.button-secondary:hover{
+  background-color: #d2d3d6;
+}
+.button-primary{
+    margin-left: 10px;
+}
+.button__right{
+  display: flex;
+}
+.container{
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+  }
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .container input:checked ~ .checkmark {
+    border: 1px solid #2ca01c;
+  }
+  .checkmark:after{
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  

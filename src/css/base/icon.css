@@ -1,0 +1,137 @@
+.icon{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat;
+}
+.icon__menu{
+    background-position: -422px -86px;
+}
+.icon__pie-chart{
+    background-position: -30px -1628px;
+}
+.icon__pocket{
+    background-position: -73px -1628px;
+}
+.icon__bank{
+    background-position: -117px -1628px;
+}
+.icon__bag{
+    background-position: -161px -1628px;
+}
+.icon__cart{
+    background-position: -204px -1628px;
+}
+.icon__bill{
+    background-position: -249px -1628px;
+}
+.icon__stock{
+    background-position: -291px -1628px;
+}
+.icon__tool{
+    background-position: -336px -1628px;
+}
+.icon__car{
+    background-position: -378px -1630px;
+}
+.icon__salary{
+    background-position: -291px -1662px;
+}
+.icon__tax{
+    background-position: -423px -1630px;
+}
+.icon__sale{
+    background-position: -467px -1628px;
+}
+.icon__total{
+    background-position: -510px -1628px;
+}
+.icon__money{
+    background-position: -378px -1659px;
+}
+.icon__column-chart{
+    background-position: -547px -1628px;
+}
+.icon__line-chart{
+    background-position: -204px -1664px;
+}
+.icon__sidebar{
+    background-position: -843px -30px;
+    margin-right: 10px;
+}
+.icon__down{
+    background-position: -75px -360px;
+    transform: rotate(90deg);
+}
+.icon__bell{
+    background-position: -788px -30px;
+    margin-right: 16px;
+}
+.icon__avatar{
+    background-position: -352px -894px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.icon__search{
+    background-position: -992px -360px;
+}
+.icon__refresh{
+    background-position: -423px -201px;
+}
+.icon__refresh:hover{
+    background-position: -1097px -88px;
+}
+.icon__help{  
+    background-position: -89px -144px;
+    margin-right: 6px; 
+}
+
+.icon__close{
+    background-position: -144px -144px;
+}
+.icon__dropdown{
+    background-position: -555px -359px;
+    padding-left: 7px;
+    padding-right: 7px;
+    cursor: pointer;
+}
+
+.icon__dropdown--blue{
+    background-position: -886px -351px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.icon__loading{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 4px solid;
+    border-top-color: #2ca01c;
+    border-left-color: #2ca01c;
+    border-right-color: #8d9096;
+    border-bottom-color: #8d9096;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+}
+.icon__alert{
+    background-position: -24px -954px;
+}
+.icon__warning{
+    background-position: -592px -456px;
+}
+.icon__question{
+    background-position: -826px -456px;
+}
+.icon-48{
+    width: 48px;
+    height: 48px;
+}
+.icon-32{
+    width: 32px;
+    height: 32px;
+}
+.icon-24{
+    width: 24px;
+    height: 24px;
+}
+.icon-16{
+    width: 16px;
+    height: 16px;
+}
